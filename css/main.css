@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+body {
+  background: url("../images/triangle-mosaic.png");
+  margin: 0;
+  font-family: 'Poppins';
+}
+
+.navbar {
+  text-align: center;
+  margin-top: .5em;
+}
+
+.logo {
+  text-decoration: none;
+  font-weight: bold;
+  color: #27CEF2;
+  font-size: 3em;
+  text-shadow: 2px 2px 3px white;
+}
+
+.logo #video {
+  color: #EF4B4B;
+}
+
+.logo #downloader {
+  color: #F1C93A;
+}
+
+.main {
+  text-align: center;
+  margin-top: 15em;
+}
+
+.main ::-webkit-input-placeholder {
+  font-weight: 200;
+}
+
+.main :-ms-input-placeholder {
+  font-weight: 200;
+}
+
+.main ::-ms-input-placeholder {
+  font-weight: 200;
+}
+
+.main ::placeholder {
+  font-weight: 200;
+}
+
+.main #link {
+  scale: 140%;
+  width: 20%;
+  border-radius: 5em;
+  border-color: black;
+  outline: none;
+}
+
+.main .submit-cta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 1em;
+  height: 100%;
+  margin-left: 45%;
+  background: #27CEF2;
+  scale: 120%;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2em;
+  border-radius: 4em;
+  width: 10%;
+}
+/*# sourceMappingURL=main.css.map */
