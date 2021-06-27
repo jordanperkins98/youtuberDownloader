@@ -12,4 +12,5 @@ except OSError:
     print("Cant change directory")
 
 #Uses Pytube download() to download file
-print(YouTube(link).streams.get_highest_resolution().download())
+print("Downloading....")
+YouTube(link).streams.filter(progressive=True).first().download()
